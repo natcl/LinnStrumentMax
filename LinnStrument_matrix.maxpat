@@ -38,6 +38,21 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 84.0, 419.0, 150.0, 74.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 20.0, 309.0, 604.0, 20.0 ],
+					"style" : "",
+					"text" : "You can use numbers from 0 to 6 to quickly change color. The key left to \"1\" will revert to click mode."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -460,7 +475,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "linnstrument_matrix.png",
-				"bootpath" : "~/Desktop/LinnStrumentMax",
+				"bootpath" : "~/Source/LinnStrumentMax",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
