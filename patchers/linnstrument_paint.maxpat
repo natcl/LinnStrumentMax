@@ -38,6 +38,21 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 11.0, 372.0, 150.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 11.0, 376.0, 604.0, 20.0 ],
+					"style" : "",
+					"text" : "Hold switch 2 on LinnStrument to select color"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
